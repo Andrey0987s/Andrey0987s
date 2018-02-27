@@ -1,10 +1,10 @@
 <?php
 
-$recepient = "qwerty3338043@mail.ru";
-$sitename = "BalkonMinsk.by";
+$recepient = 'qwerty3338043@gmail.com';
+$sitename = 'BalkonMinsk.by';
 
 $name = trim($_POST["name"]);
-$phone = trim($_POST["Subject"]);
+$phone = trim($_POST["subject"]);
 $text = trim($_POST["text"]);
 $message = "Имя: $name \nТелефон: $phone \nТекст: $text";
 
